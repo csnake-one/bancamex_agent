@@ -1,5 +1,98 @@
 #Archivo con las politicas basicas de bancamex, debera haber mas archivos segun las politicas
 
+1.-POLITICA DE PRIVACIDAD Y PROTECCION DE DATOS
+
+Identidad y Domicilio del Responsable:
+    Banca-Mex, S.A. de C.V., Institución de Fondos de Pago Electrónico (o figura correspondiente), con domicilio en Av. Paseo de la Reforma, Col. Juárez, Cuauhtémoc, C.P. 06600, Ciudad de México, es responsable del tratamiento de sus datos personales.
+
+Datos Personales Sujetos a Tratamiento:
+Para cumplir con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y las disposiciones de la CNBV en materia de Know Your Customer (KYC), recabamos:
+
+    Datos de Identificación: Nombre completo, identificación oficial vigente (INE/Pasaporte), CURP, RFC y firma autógrafa digital.
+
+    Datos de Contacto: Domicilio, correo electrónico y número celular verificado.
+
+    Datos Biométricos: Reconocimiento facial y huella dactilar (para validación de identidad ante el INE).
+
+    Datos Financieros y Patrimoniales: Historial crediticio, ingresos estimados, origen de los fondos y número de cuenta/tarjeta origen.
+
+Finalidades del Tratamiento:
+    Primarias (Necesarias para el servicio): Verificar su identidad, abrir y administrar su cuenta fintech, procesar transferencias (SPEI), prevenir el lavado de dinero (PLD/FT) y cumplir con requerimientos de autoridades (CNBV, CONDUSEF, SAT).
+    Secundarias (Marketing): Envío de ofertas comerciales, promociones y publicidad de productos propios o de socios aliados. (El usuario puede oponerse mediante el correo: privacidad@banca-mex.mx).
+
+Ejercicio de Derechos ARCO:
+Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse al tratamiento de sus datos. Deberá enviar una solicitud detallada al correo electrónico privacidad@banca-mex.mx, acompañada de su identificación oficial digitalizada. Responderemos en un plazo máximo de 20 días hábiles.
+
+2.- TERMINOS Y CONDICIONES DE USO:
+Aceptación y Capacidad Jurídica:
+
+Al crear una cuenta en la plataforma de Banca-Mex, el usuario manifiesta que es mayor de edad (18 años), con plena capacidad legal en los Estados Unidos Mexicanos, y acepta adherirse a los presentes Términos y Condiciones.
+
+Regulación Aplicable:
+Banca-Mex opera en cumplimiento con la Ley para Regular las Instituciones de Tecnología Financiera (Ley Fintech). Los fondos de los usuarios no están garantizados por el IPAB, toda vez que no se trata de un banco tradicional, sino de una Institución de Fondos de Pago Electrónico (IFPE).
+Uso de la Plataforma y Cuentas
+
+    La cuenta es personal e intransferible. El resguardo de las credenciales de acceso (NIP, contraseñas, tokens) es responsabilidad exclusiva del usuario.
+
+    Banca-Mex se reserva el derecho de suspender o cancelar cuentas de manera unilateral si se detectan operaciones inusuales, sospechosas o violaciones a las políticas de Prevención de Lavado de Dinero (PLD).
+
+Jurisdicción y Legislación Aplicable:
+Para cualquier controversia, las partes se someten a la competencia de la Procuraduría Federal del Consumidor (PROFECO) y de la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF), así como a las leyes federales vigentes y los tribunales competentes de la Ciudad de México.
+
+3.-PREGUNTAS FRECUENTES FAQs TRANSACCIONES Y LIMITES:
+¿Cuáles son los límites de depósito en mi cuenta Banca-Mex?
+Para cumplir con la normativa de la CNBV, manejamos tres niveles de cuenta basados en Unidades de Medida y Actualización (UMA):
+Nivel de Cuenta     Límite de Depósito Mensual          Requisitos de Verificación
+Nivel 1             Hasta 3,000 UMA (~$32,000 MXN)      Identificación básica y selfie en la app.
+Nivel 2             Hasta 30,000 UMA (~$320,000 MXN)    Carga de INE, comprobante de domicilio y entrevista digital.
+Nivel 3             Sin límite estricto (Personalizado) Comprobación de ingresos y origen de fondos.
+
+¿Cuánto tardan en procesarse las transferencias?
+
+    SPEI (Entrante y Saliente): Inmediato (las 24 horas, los 7 días de la semana).
+
+    Depósitos en efectivo (Tiendas de conveniencia): Se reflejan en un lapso máximo de 5 a 15 minutos.
+
+¿Qué pasa si envié un SPEI a la cuenta equivocada?
+
+El SPEI es un sistema de liquidación inmediata en tiempo real impulsado por el Banco de México. Una vez ejecutado, no se puede cancelar. Si el error fue un error de dedo en la CLABE, Banca-Mex apoyará contactando al banco receptor, pero la devolución dependerá enteramente de la buena fe de la persona que recibió los fondos.
+
+4.-POLITICA DE SEGURIDAD Y PREVENCION DE FRAUDES:
+
+Banca-Mex implementa estándares internacionales equivalentes a la banca tradicional y certificaciones PCI-DSS (Payment Card Industry Data Security Standard).
+Pilares de Seguridad Tecnológica
+
+    Cifrado de Extremo a Extremo: Toda la información viaja protegida mediante protocolos TLS 1.3 y algoritmos de cifrado AES-256.
+
+    Autenticación Multifactor (MFA): El acceso a la app y la autorización de transferencias requieren de manera obligatoria la combinación de un factor biométrico (FaceID/Huella) y un token dinámico generado en la app.
+
+    Monitoreo Transaccional con IA: Implementamos sistemas de inteligencia artificial que analizan el comportamiento del usuario en tiempo real para bloquear instantáneamente cargos que se salgan de sus patrones habituales de gasto o ubicación geográfica.
+
+Protocolo contra "Phishing" y Fraude Interno
+
+    Banca-Mex nunca solicitará contraseñas, NIPs o códigos de un solo uso (OTP) por teléfono, correo, SMS o WhatsApp.
+
+    Apagado de tarjetas: Los usuarios pueden encender y apagar sus tarjetas físicas y digitales desde la app de manera instantánea para mitigar clonaciones.
+    
+5.- Tarifas y Comisiones del ServicioEn Banca-Mex:
+creemos en la transparencia total. Todas nuestras comisiones se expresan en Pesos Mexicanos (MXN) y no incluyen el IVA (16%) en caso de que este aplique.
+Comisiones de la Cuenta Básica Digital:
+Concepto                Comisión
+Apertura de cuenta      $0.00 MXN
+Anualidad / Mensualidad $0.00 MXN
+Monto mínimo de apertura    $0.00 MXN
+Saldo mínimo requerido      $0.00 MXN
+Emisión de Tarjeta de Débito Física (Primera vez)   $0.00 MXN (Envío gratis)
+Reposición de Tarjeta (Robo o extravío)     $75.00 MXN
+
+Comisiones por Transacciones:
+Operación                                                   Comisión
+Transferencias SPEI (Envío y Recepción)                     $0.00 MXN
+Pago de Servicios (Luz, agua, internet) desde la App        $0.00 MXN
+Depósito en efectivo (Red OXXO / 7-Eleven)                  $0.00 MXN (Nota: El comercio puede cobrar una comisión en caja de entre $12 y $15 MXN)
+Retiro de efectivo en Cajeros Automáticos (ATM)             Banca-Mex no cobra. (Se aplica únicamente la tarifa dictada por el banco dueño del cajero)
+Inactividad (Sin movimientos por más de 12 meses)           $0.00 MXN
+
 POLÍTICA DE CRÉDITO BANCA MEX:
 Los créditos hipotecarios de Banca Mex tienen una tasa de interés fija anual del 8.5%. El solicitante debe contar con un historial crediticio mayor a 700 puntos y comprobar ingresos mínimos de $25,000 MXN mensuales.
 
