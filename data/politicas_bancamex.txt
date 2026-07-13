@@ -1,1 +1,10 @@
 #Archivo con las politicas basicas de bancamex, debera haber mas archivos segun las politicas
+
+POLÍTICA DE CRÉDITO BANCA MEX:
+Los créditos hipotecarios de Banca Mex tienen una tasa de interés fija anual del 8.5%. El solicitante debe contar con un historial crediticio mayor a 700 puntos y comprobar ingresos mínimos de $25,000 MXN mensuales.
+
+POLÍTICA DE APERTURA DE CUENTAS:
+La Cuenta de Ahorros "MexDigital" no cobra comisión por apertura ni saldo mínimo mensual. Se requiere identificación oficial vigente (INE o Pasaporte) y comprobante de domicilio no mayor a 3 meses.
+
+HORARIOS Y SUCURSALES:
+Las sucursales físicas operan de lunes a viernes de 9:00 AM a 4:00 PM. Los cajeros automáticos están disponibles las 24 horas del día.

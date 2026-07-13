@@ -1,1 +1,8 @@
 #ARCHIVO CON LAS DEPENDENCIAS Y REQUERMIENTOS PARA EL PROYECTO
+
+langchain==0.3.0
+langchain-google-genai==2.0.0
+langgraph==0.2.20
+chromadb==0.5.5
+python-dotenv==1.0.1
+sentence-transformers==3.0.1
