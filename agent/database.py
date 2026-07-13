@@ -1,9 +1,11 @@
 #Ingesta y conexion a la BD que en este caso se opta por ChromaDB
 
 import os
+from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from agent.embeddings import obtener_modelo_embeddings
+#from agent.embeddings import embeddings
 
 DB_PATH = os.getenv("CHROMA_DB_PATH", "./chroma_db")
 FILE_PATH = os.getenv("POLITICAS_FILE_PATH", "./data/politicas_bancamex.txt")
@@ -14,6 +16,7 @@ def inicializar_o_cargar_db():
     lo fragmenta (chunking), genera los embeddings y los almacena en ChromaDB.
     """
     embeddings = obtener_modelo_embeddings()
+#    embeddings = BancaMexEmbeddings
 
     # Si la carpeta chroma_db existe y tiene archivos, asumimos que ya está indexada
     if os.path.exists(DB_PATH) and len(os.listdir(DB_PATH)) > 0:
