@@ -15,7 +15,7 @@ class AgenteState(TypedDict):
 
 # Inicialización de recursos globales para el agente
 retriever = inicializar_o_cargar_db()
-llm = ChatGoogleGenerativeAI(model="models/gemini-3.5-flash", temperature=0.0)
+llm = ChatGoogleGenerativeAI(model="models/gemini-3.6-flash", temperature=0.0)
 
 def nodo_recuperar_informacion(state: AgenteState) -> dict:
     """Nodo encargado de consultar ChromaDB usando la pregunta del usuario."""
