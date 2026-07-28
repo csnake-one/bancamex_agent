@@ -1,5 +1,5 @@
 # bancamex_agent
-Proyecto que pretende crear un agente que pueda responder las preguntas de los usuarios de la fintech BancaMex (empresa ficticia. Challenge para entregar en G10 de aluralatam
+Proyecto que pretende crear un agente que pueda responder las preguntas de los usuarios de la fintech BancaMex (empresa ficticia). Challenge para entregar en G10 de aluralatam
 El agente respondera de forma exclusiva preguntas relacionadas con la empresa Banca-Mex como por ejemplo:
  - Condiciones comerciales
  - Tarifas y comisiones por los servicios
@@ -84,8 +84,8 @@ El flujo que sigue y como se orquestan las herramientas es la siguiente:
 1. Configure su entorno local e instale las dependencias de requirements.txt
 2. Inserte su `GOOGLE_API_KEY` en el archivo `.env`.
 3. Ejecute `python main.py` para interactuar con el agente por consola.
-    3.1 Ejecute 'streamlit run app.py' para poder interactuar de manera grafica y via web con su navegador por defecto
-4. Puede probar su funcionamiento en la siguiente direccion: https://bancamexagent-alura-one10.streamlit.app/
+4. Ejecute `streamlit run app.py` para poder interactuar de manera grafica y via web con su navegador por defecto
+5. Puede probar su funcionamiento en la siguiente direccion: https://bancamexagent-alura-one10.streamlit.app/
 
 ## Ejemplos de preguntas que el agente puede responder
 
@@ -94,7 +94,7 @@ El flujo que sigue y como se orquestan las herramientas es la siguiente:
  3. ¿Que sericios ofrece Banca Mex?
  4. ¿Tiene comisiones Banca Mex?
  
-## Ejemplos de preguntas que el agente genera
+## Ejemplos de respuestas que el agente genera
 
  1. Banca Mex es una institucion de fondos de pago Electronico (IFPE) que opera en cumplimiento con la Ley para Regular las Instituciones de Tecnologia Financiera.
     (Ley Fintech)
