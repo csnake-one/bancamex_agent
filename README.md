@@ -15,22 +15,43 @@ Este proyecto sigue un diseño modular dividiendo la base de datos de vectores (
 
 bancamex-agent/
 │
+
 ├── data/
-│   └── politicas_bancamex.txt   # Documentación oficial de la banca
+
+     │
+
+     └── politicas_bancamex.txt   # Documentación oficial de la banca
+
 ├── agent/
-│    └── database.py             #Ingesta y conexion a la BD que en este caso se opta por ChromaDB
+
+        │
+
+        └── database.py             #Ingesta y conexion a la BD que en este caso se opta por ChromaDB
+        
 │    └── embeddings.py           #Configuracion del modelo de embeddings
+
 │    └── graph.py                #llamadas a Gemini y logica de LangChain
+
 │    └──prompts.py             #prompts para establecer las funciones y establecer limites con guardrails
+
 |
+
 ├── chroma_db/                  # Carpeta donde se guardará la BD vectorial
+
 │
+
 ├── .env                        # Variables de entorno (Ignorado en Git)
+
 ├── .gitignore                  # Archivos ignorados por Git
+
 ├── README.md                   # Documentación del repositorio
+
 ├── requirements.txt            # Dependencias del proyecto
+
 │
+
 └── main.py                     #Programa principal y base del agente
+
 
 El flujo que sigue y como se orquestan las herramientas es la siguiente:
 
