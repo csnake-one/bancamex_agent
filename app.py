@@ -1,8 +1,6 @@
 import os
 import streamlit as st
-from agent.graph import (
-    construir_grafo,
-)  # Ajusta según tu función principal en graph.py
+from agent.graph import construir_grafo  # Ajusta según tu función principal en graph.py
 
 # Configuración de la página
 st.set_page_config(
